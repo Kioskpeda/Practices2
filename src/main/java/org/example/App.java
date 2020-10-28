@@ -22,17 +22,19 @@ public class App {
         double b = 5.8;
         double result = d + b;
 
-        System.out.println(result);
+        System.out.println(result); }
     }
      class Car {
-        String carBrand;
-        String ownerName;
-        String registration;
-        int registrationNumber;
-        int maxSpeed;
-        String maxSpeed2;
-        public String getInformation() {
-            return carBrand + " " + ownerName + " " + registration + registrationNumber + maxSpeed + maxSpeed2;}
+         String carBrand;
+         String ownerName;
+         String registration;
+         int registrationNumber;
+         int maxSpeed;
+         String maxSpeed2;
+
+         public String getInformation() {
+             return carBrand + " " + ownerName + " " + registration + registrationNumber + maxSpeed + maxSpeed2;
+         }
 
          {
 
@@ -44,26 +46,15 @@ public class App {
              opel.registrationNumber = 919;
              opel.maxSpeed = 200;
              opel.maxSpeed2 = "kmh";
-             System.out.println(getInformation());
+             System.out.println(opel.getInformation());
 
              //I have absolutely no idea how to get it to print out the information or anything.
 
 
-
-
-
-          int score = 65;
-
-          if (score >=65) {
-              System.out.println("You pass!");
-          }else if (score < 16){ System.out.println("You don't pass!");
-
          }
 
+     }
 
-
-
-    }
 
 
 
